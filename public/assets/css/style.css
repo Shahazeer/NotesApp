@@ -1,0 +1,246 @@
+/* Add your CSS styles for the navigation bar here */
+body {
+  background-color: rgb(238, 180, 74);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 10px; */
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgb(241, 169, 36);
+}
+
+.title {
+  font-family: "Garamond", sans-serif; /* Replace 'Your Desired Font' with your preferred font-family */
+  position: absolute;
+  margin-left: 1400px;
+  margin-top: 35px;
+  color: rgb(163, 108, 4);
+}
+
+.navigation {
+  /* background-color: #9b9b9b; */
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin: 20px;
+  width: 80px;
+}
+
+.navigation #add {
+  position: absolute;
+  margin-top: -60px;
+  margin-left: -50px;
+  height: 100px;
+  width: 100px;
+}
+
+.navigation #home {
+  position: absolute;
+  margin-top: -35px;
+  margin-left: 60px;
+  height: 50px;
+  width: 50px;
+  mix-blend-mode: multiply;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.notes {
+  min-height: 1000px;
+  height: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 20px;
+  background-color: rgb(220, 161, 52);
+}
+
+.note {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  /* display: flex;
+  align-items: center; */
+}
+.note-image {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: -10px;
+  width: 110px;
+  height: 110;
+}
+.note-header {
+  resize: none;
+  border: none;
+  mix-blend-mode: multiply;
+  position: relative;
+  margin-top: 40px;
+  margin-left: -5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  max-width: 85px;
+  max-height: 80px;
+}
+
+.show-modal {
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.75rem 3.5rem;
+  margin: 5rem 2rem;
+  border: none;
+  background-color: #ffffff;
+  color: #444;
+  border-radius: 10rem;
+  cursor: pointer;
+}
+
+.close-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+/* -------------------------- */
+/* CLASSES TO MAKE MODAL WORK */
+.hidden {
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  background-color: rgb(255, 217, 0);
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+.lined {
+  background-image: repeating-linear-gradient(
+    transparent,
+    transparent 20px,
+    #282001 20px,
+    #f0f0f0 22px
+  );
+  background-size: 100% 22px;
+  line-height: 22px; /* Adjust line height to match background spacing */
+}
+
+.modal-note-name {
+  font-family: "Garamond", sans-serif; /* Replace 'Your Desired Font' with your preferred font-family */
+  font-size: 30px;
+  font-weight: bold;
+  width: 470px;
+  height: 35px;
+  border: none;
+  resize: none;
+  background-color: rgb(218, 187, 8);
+}
+
+.note-content {
+  background-color: rgb(218, 187, 8);
+  min-height: 210px;
+  min-width: 1100px;
+  border: 1pt solid black;
+  resize: none;
+}
+
+.modal .delete-modal-button {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: -10px;
+  width: 40px;
+  height: 40px;
+  mix-blend-mode: multiply;
+}
+
+.modal .update-modal-button {
+  position: absolute;
+  margin-left: 80px;
+  margin-top: -10px;
+  width: 40px;
+  height: 40px;
+  mix-blend-mode: multiply;
+}
+
+footer {
+  background-color: rgb(241, 169, 36);
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.testimonials .heading-test {
+  color: #000000;
+  text-align: center;
+}
+
+.description {
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.navigation #add:hover {
+  border: 1pt solid green;
+}
+.navigation #home:hover {
+  border: 1pt solid green;
+}
+.modal .delete-modal-button:hover {
+  border: 1pt solid green;
+}
+.modal .update-modal-button:hover {
+  border: 1pt solid green;
+}
+/* .modal .close-modal:hover {
+  border: 1pt solid green;
+} */

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Shahazeer Ummer D",
+    "email": "shahazeer3@gmail.com",
+    "password": "shah",
+    "Notes": [
+      {
+        "NoteName": "Note1",
+        "NoteData": "hey I'm Shahazeer"
+      },
+      {
+        "NoteName": "Note2",
+        "NoteData": ""
+      }
+    ]
+  },
+  {
+    "name": "Shah",
+    "email": "shahazeer5@gmail.com",
+    "password": "shah",
+    "Notes": [
+      {
+        "NoteName": "Note1",
+        "NoteData": "Hello1 World1"
+      },
+      {
+        "NoteName": "Note2",
+        "NoteData": "Hey1 world1"
+      }
+    ]
+  },
+  {
+    "name": "Shahazeer",
+    "email": "shahazeer10@gmail.com",
+    "password": "shah",
+    "Notes": [
+      {
+        "NoteName": "Note1",
+        "NoteData": "Hello1 World1"
+      },
+      {
+        "NoteName": "Note2",
+        "NoteData": "Hey1 world1"
+      }
+    ]
+  },
+  {
+    "name": "Ummer",
+    "email": "shahazeerUD@gmail.com",
+    "password": "shah",
+    "Notes": [
+      {
+        "NoteName": "Note1",
+        "NoteData": "Hello123 World123"
+      },
+      {
+        "NoteName": "Note2",
+        "NoteData": "Hey123 world123"
+      }
+    ]
+  }
+]
